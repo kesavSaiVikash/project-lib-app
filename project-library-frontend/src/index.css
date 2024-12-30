@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode styles */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+button {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #1a202c; /* Dark background */
+  color: #cbd5e0; /* Light text for dark mode */
+}
+
+button.dark {
+  background-color: #4a5568; /* Dark button background */
+  color: #f7fafc; /* Light button text */
+}
